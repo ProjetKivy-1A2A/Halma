@@ -1,0 +1,16 @@
+<GrilleHalma>:
+	cols: 16
+	rows: 16
+
+<Bouton>:
+    #size: self.height
+
+<Interface>:
+    orientation: 'vertical'
+
+    AnchorLayout:
+        GrilleHalma:
+            id: board
+            size: min(self.parent.size), min(self.parent.size)          
+			size_hint: None, None
+				
